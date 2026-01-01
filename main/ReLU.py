@@ -4,7 +4,7 @@ from cd import create_data
 #         [2.0,5.0,-1.0,2.0],
 #         [-1.5,2.7,3.3,-0.8]]
 
-X , y = create_data(100,3)
+X , y = create_data(10,3)
 
 class Layer__Dense:
     def __init__(self,n_inputs,n_neurons):
